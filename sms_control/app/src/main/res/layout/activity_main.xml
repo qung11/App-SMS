@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView android:text="ĐIỀU KHIỂN LED THÔNG QUA TIN NHẮN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#D41714"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_weight="19.37"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_off"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_marginBottom="53dp"
+        android:background="#78ffb3"
+        android:gravity="center"
+        android:text="TURN ON THE LIGHT"
+        android:textColor="#EC407A"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_on"
+        android:layout_alignEnd="@+id/btn_on"
+        android:layout_gravity="center"
+        android:layout_marginBottom="53dp"
+        android:background="#ff5053"
+        android:gravity="center"
+        android:text="TURN OFF THE LIGHT"
+        android:textSize="30sp" />
+</LinearLayout>

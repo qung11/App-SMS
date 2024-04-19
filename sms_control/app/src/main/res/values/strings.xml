@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMS_CONTROL</string>
+    <string name="hello_world">SMS DEVICE CONTROLLER</string>
+    <string name="action_settings">Settings</string>
+</resources>
